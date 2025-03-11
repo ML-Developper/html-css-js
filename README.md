@@ -1,2 +1,2 @@
 # html-css-js
-### template cv personnel html-css-js
+### template portfolio personnel html-css-js
