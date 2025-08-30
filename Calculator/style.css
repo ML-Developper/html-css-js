@@ -1,0 +1,59 @@
+.main {
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    margin: 50px auto auto auto;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.afficheur {
+    height: 30%;
+    width: 98%;
+    height: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: xx-large;
+    margin-bottom: 5px;
+    border-radius: 15px ; 
+    border: black solid;
+    text-align: right;
+    position: relative;
+    background: lightgray;
+    span{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 5px;
+    
+    }  
+}
+
+.btn{
+    width: 95%;
+    height: 65%;
+    border: black solid ;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn-calc{
+        width: 22%;
+        height: 17%;
+        border-radius: 50%;
+        font-size: x-large;
+        background-color: black;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 5px;
+       
+    }
+    .btn-calc:hover{
+            background-color: blue;
+            box-shadow: 1px 5px 5px rgb(73, 75, 80);
+        }

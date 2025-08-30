@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        
+        <div class="afficheur">
+            <span id="affich">0<span>
+        </div>
+
+        <div class="btn">
+            <button class="btn-calc" id="ac" onclick="vider()">AC</button>
+            <button class="btn-calc" id="%" onclick="past('%')">%</button>
+            <button class="btn-calc" id="<" onclick="supprimer()"><</button>
+            <button class="btn-calc" id="/" onclick="past('/')">/</button>
+            <button class="btn-calc" id="7" onclick="past('7')">7</button>
+            <button class="btn-calc" id="8" onclick="past('8')">8</button>
+            <button class="btn-calc" id="9" onclick="past('9')">9</button>
+            <button class="btn-calc" id="*" onclick="past('*')">*</button>
+            <button class="btn-calc" id="4" onclick="past('4')">4</button>
+            <button class="btn-calc" id="5" onclick="past('5')">5</button>
+            <button class="btn-calc" id="6" onclick="past('6')">6</button>
+            <button class="btn-calc" id="-" onclick="past('-')">-</button>
+            <button class="btn-calc" id="1" onclick="past('1')">1</button>
+            <button class="btn-calc" id="2" onclick="past('2')">2</button>
+            <button class="btn-calc" id="3" onclick="past('3')">3</button>
+            <button class="btn-calc" id="+" onclick="past('+')">+</button>
+            <button class="btn-calc" id="00" onclick="past('00')">00</button>
+            <button class="btn-calc" id="0" onclick="past('0')">0</button>
+            <button class="btn-calc" id="," onclick="past(',')">,</button>
+            <button class="btn-calc" id="=" onclick="egal()">=</button>
+        </div>
+    </div>
+    <script src="method.js"></script>
+</body>
+</html>
