@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <h3>ADD Task</h3>
+
+
+        <div>
+
+            <textarea name="title" id="title" rows="10"></textarea>
+        </div>
+        <button onclick="addTasks()">ADD</button>
+
+
+
+    </div>
+    <div class="block" id="b1">
+        <div class="title">
+            <h3>ToDo&nbsp;&nbsp;&nbsp;<span id="c1"></span></h3>
+        </div>
+
+        <div class="item" draggable="true">Task1</div>
+        <div class="item" draggable="true">Task2</div>
+        <div class="item" draggable="true">Task3</div>
+        <div class="item" draggable="true">Task4</div>
+        <div class="item" draggable="true">Task5</div>
+        <div class="item" draggable="true">Task6</div>
+
+
+
+    </div>
+    <div class="block" id="b2">
+        <div class="title">
+            <h3>In Progress&nbsp;&nbsp;&nbsp;<span id="c2"></span></h3>
+        </div>
+
+        <div class="item" draggable="true"></div>
+        <div class="item" draggable="true"></div>
+        <div class="item" draggable="true"></div>
+
+    </div>
+    <div class="block" id="b3">
+        <div class="title">
+            <h3>Backlog&nbsp;&nbsp;&nbsp;<span id="c3"></span></h3>
+        </div>
+    </div>
+    <div class="block" id="b4">
+        <div class="title">
+            <h3>Deleted&nbsp;&nbsp;&nbsp;<span id="c4"></span></h3>
+        </div>
+
+    </div>
+    <div class="block" id="b5">
+
+        <div class="title">
+            <h3>Finish&nbsp;&nbsp;&nbsp;<span id="c5"></span></h3>
+        </div>
+    </div>
+
+    <script src="method.js"></script>
+</body>
+
+</html>
