@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>realtime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="block1">
+            <div class="text-vu" id="b1">
+                <div class="message">
+                    <div class="item">
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-input">
+                <div class="inp">
+                    <input type="text" id="ms1">
+                </div>
+                <div class="btn">
+                    <button onclick="message('b1','ms1','b2')">SEND</button>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="text-vu" id="b2"></div>
+            <div class="text-input">
+                <div class="inp">
+                    <input type="text" id="ms2">
+                </div>
+                <div class="btn">
+                    <button onclick="message('b2','ms2','b1')">SEND</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="method.js"></script>
+</body>
+
+</html>
